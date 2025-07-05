@@ -1,0 +1,35 @@
+{
+  "name": "netflix-household-unblocker",
+  "version": "2.0.0",
+  "description": "Advanced browser extension for seamless Netflix streaming by intelligently managing household verification prompts",
+  "main": "background.js",
+  "scripts": {
+    "build": "echo 'No build process required for browser extension'",
+    "test": "echo 'No tests specified'",
+    "lint": "echo 'No linting configured'"
+  },
+  "keywords": [
+    "netflix",
+    "browser-extension",
+    "streaming",
+    "household",
+    "verification",
+    "chrome-extension",
+    "firefox-addon"
+  ],
+  "author": "Streaming Tools Developer",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/streaming-tools/netflix-household-unblocker"
+  },
+  "bugs": {
+    "url": "https://github.com/streaming-tools/netflix-household-unblocker/issues"
+  },
+  "homepage": "https://github.com/streaming-tools/netflix-household-unblocker#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+} 
