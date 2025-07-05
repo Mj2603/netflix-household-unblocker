@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3,
+  "name": "Netflix Household Unblocker",
+  "version": "2.0",
+  "description": "Advanced Netflix household verification bypass tool with enhanced privacy protection and seamless streaming experience.",
+  "permissions": [
+    "declarativeNetRequest",
+    "tabs",
+    "webNavigation",
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": [
+    "*://*.netflix.com/*"
+  ],
+  "background": {
+    "service_worker": "worker.js",
+    "scripts": ["worker.js"]
+  },
+  "action": {
+    "default_popup": "panel.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "netflix-household-unblocker@streaming-tools.com",
+      "strict_min_version": "109.0"
+    }
+  }
+} 
